@@ -1,2 +1,2 @@
 # Simple-Pomodoro
-Very simeple Pomodoro countdown app
+Very simple Pomodoro countdown app
