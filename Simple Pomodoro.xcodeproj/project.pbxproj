@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261832011CC90E3900C49BEA /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261832001CC90E3900C49BEA /* TriangleView.m */; };
 		2661B7E91CBD3A1E00009D52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2661B7E81CBD3A1E00009D52 /* main.m */; };
 		2661B7EC1CBD3A1E00009D52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2661B7EB1CBD3A1E00009D52 /* AppDelegate.m */; };
 		2661B7EF1CBD3A1E00009D52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2661B7EE1CBD3A1E00009D52 /* ViewController.m */; };
 		2661B7F21CBD3A1E00009D52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2661B7F01CBD3A1E00009D52 /* Main.storyboard */; };
 		2661B7F41CBD3A1E00009D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2661B7F31CBD3A1E00009D52 /* Assets.xcassets */; };
 		2661B7F71CBD3A1E00009D52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2661B7F51CBD3A1E00009D52 /* LaunchScreen.storyboard */; };
+		2661B7FF1CBD3A6A00009D52 /* pomodoro.png in Resources */ = {isa = PBXBuildFile; fileRef = 2661B7FE1CBD3A6A00009D52 /* pomodoro.png */; };
+		26D9FE721CCA78220012A61D /* pomodoro_tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26D9FE701CCA78220012A61D /* pomodoro_tick.mp3 */; };
+		26D9FE731CCA78220012A61D /* pomodoro_turn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26D9FE711CCA78220012A61D /* pomodoro_turn.mp3 */; };
+		26D9FE751CCA78430012A61D /* pomodoro_ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26D9FE741CCA78430012A61D /* pomodoro_ring.mp3 */; };
+		26D9FE771CCA85F30012A61D /* tomato-clip-art pomo.png in Resources */ = {isa = PBXBuildFile; fileRef = 26D9FE761CCA85F30012A61D /* tomato-clip-art pomo.png */; };
+		26D9FE7B1CCB271A0012A61D /* volumeon.png in Resources */ = {isa = PBXBuildFile; fileRef = 26D9FE7A1CCB271A0012A61D /* volumeon.png */; };
+		26D9FE7F1CCB29440012A61D /* volumeoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 26D9FE7E1CCB29440012A61D /* volumeoff.png */; };
+		26D9FE821CCB9A6D0012A61D /* lighton.png in Resources */ = {isa = PBXBuildFile; fileRef = 26D9FE811CCB9A6D0012A61D /* lighton.png */; };
+		26D9FE841CCB9AD70012A61D /* lightoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 26D9FE831CCB9AD70012A61D /* lightoff.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2661B7E41CBD3A1E00009D52 /* Pomodoro2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		261831FF1CC90E3900C49BEA /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		261832001CC90E3900C49BEA /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
+		2661B7E41CBD3A1E00009D52 /* Simple Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Pomodoro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2661B7E81CBD3A1E00009D52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2661B7EA1CBD3A1E00009D52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2661B7EB1CBD3A1E00009D52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +38,17 @@
 		2661B7F31CBD3A1E00009D52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2661B7F61CBD3A1E00009D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2661B7F81CBD3A1E00009D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2661B7FE1CBD3A6A00009D52 /* pomodoro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pomodoro.png; sourceTree = "<group>"; };
+		26D9FE701CCA78220012A61D /* pomodoro_tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pomodoro_tick.mp3; sourceTree = "<group>"; };
+		26D9FE711CCA78220012A61D /* pomodoro_turn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pomodoro_turn.mp3; sourceTree = "<group>"; };
+		26D9FE741CCA78430012A61D /* pomodoro_ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pomodoro_ring.mp3; sourceTree = "<group>"; };
+		26D9FE761CCA85F30012A61D /* tomato-clip-art pomo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato-clip-art pomo.png"; sourceTree = "<group>"; };
+		26D9FE7A1CCB271A0012A61D /* volumeon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeon.png; sourceTree = "<group>"; };
+		26D9FE7E1CCB29440012A61D /* volumeoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeoff.png; sourceTree = "<group>"; };
+		26D9FE801CCB8B3F0012A61D /* ring.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ring.caf; sourceTree = "<group>"; };
+		26D9FE811CCB9A6D0012A61D /* lighton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lighton.png; sourceTree = "<group>"; };
+		26D9FE831CCB9AD70012A61D /* lightoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightoff.png; sourceTree = "<group>"; };
+		26D9FE851CCBA3810012A61D /* Pomodoro2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Pomodoro2.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +73,7 @@
 		2661B7E51CBD3A1E00009D52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2661B7E41CBD3A1E00009D52 /* Pomodoro2.app */,
+				2661B7E41CBD3A1E00009D52 /* Simple Pomodoro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +81,8 @@
 		2661B7E61CBD3A1E00009D52 /* Pomodoro2 */ = {
 			isa = PBXGroup;
 			children = (
+				26D9FE851CCBA3810012A61D /* Pomodoro2.entitlements */,
+				2661B8001CBD3A7100009D52 /* Assets */,
 				2661B7EA1CBD3A1E00009D52 /* AppDelegate.h */,
 				2661B7EB1CBD3A1E00009D52 /* AppDelegate.m */,
 				2661B7ED1CBD3A1E00009D52 /* ViewController.h */,
@@ -67,6 +92,8 @@
 				2661B7F51CBD3A1E00009D52 /* LaunchScreen.storyboard */,
 				2661B7F81CBD3A1E00009D52 /* Info.plist */,
 				2661B7E71CBD3A1E00009D52 /* Supporting Files */,
+				261831FF1CC90E3900C49BEA /* TriangleView.h */,
+				261832001CC90E3900C49BEA /* TriangleView.m */,
 			);
 			path = Pomodoro2;
 			sourceTree = "<group>";
@@ -79,12 +106,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2661B8001CBD3A7100009D52 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				26D9FE831CCB9AD70012A61D /* lightoff.png */,
+				26D9FE811CCB9A6D0012A61D /* lighton.png */,
+				26D9FE801CCB8B3F0012A61D /* ring.caf */,
+				26D9FE7E1CCB29440012A61D /* volumeoff.png */,
+				26D9FE7A1CCB271A0012A61D /* volumeon.png */,
+				26D9FE761CCA85F30012A61D /* tomato-clip-art pomo.png */,
+				26D9FE741CCA78430012A61D /* pomodoro_ring.mp3 */,
+				26D9FE701CCA78220012A61D /* pomodoro_tick.mp3 */,
+				26D9FE711CCA78220012A61D /* pomodoro_turn.mp3 */,
+				2661B7FE1CBD3A6A00009D52 /* pomodoro.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2661B7E31CBD3A1E00009D52 /* Pomodoro2 */ = {
+		2661B7E31CBD3A1E00009D52 /* Simple Pomodoro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2661B7FB1CBD3A1E00009D52 /* Build configuration list for PBXNativeTarget "Pomodoro2" */;
+			buildConfigurationList = 2661B7FB1CBD3A1E00009D52 /* Build configuration list for PBXNativeTarget "Simple Pomodoro" */;
 			buildPhases = (
 				2661B7E01CBD3A1E00009D52 /* Sources */,
 				2661B7E11CBD3A1E00009D52 /* Frameworks */,
@@ -94,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = Pomodoro2;
+			name = "Simple Pomodoro";
 			productName = Pomodoro2;
-			productReference = 2661B7E41CBD3A1E00009D52 /* Pomodoro2.app */;
+			productReference = 2661B7E41CBD3A1E00009D52 /* Simple Pomodoro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,10 +155,18 @@
 					2661B7E31CBD3A1E00009D52 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 4D984E6XJ3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 2661B7DF1CBD3A1E00009D52 /* Build configuration list for PBXProject "Pomodoro2" */;
+			buildConfigurationList = 2661B7DF1CBD3A1E00009D52 /* Build configuration list for PBXProject "Simple Pomodoro" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2661B7E31CBD3A1E00009D52 /* Pomodoro2 */,
+				2661B7E31CBD3A1E00009D52 /* Simple Pomodoro */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +189,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D9FE821CCB9A6D0012A61D /* lighton.png in Resources */,
 				2661B7F71CBD3A1E00009D52 /* LaunchScreen.storyboard in Resources */,
+				26D9FE751CCA78430012A61D /* pomodoro_ring.mp3 in Resources */,
 				2661B7F41CBD3A1E00009D52 /* Assets.xcassets in Resources */,
+				26D9FE841CCB9AD70012A61D /* lightoff.png in Resources */,
+				26D9FE771CCA85F30012A61D /* tomato-clip-art pomo.png in Resources */,
+				26D9FE7F1CCB29440012A61D /* volumeoff.png in Resources */,
+				26D9FE731CCA78220012A61D /* pomodoro_turn.mp3 in Resources */,
+				26D9FE7B1CCB271A0012A61D /* volumeon.png in Resources */,
+				26D9FE721CCA78220012A61D /* pomodoro_tick.mp3 in Resources */,
+				2661B7FF1CBD3A6A00009D52 /* pomodoro.png in Resources */,
 				2661B7F21CBD3A1E00009D52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +213,7 @@
 			files = (
 				2661B7EF1CBD3A1E00009D52 /* ViewController.m in Sources */,
 				2661B7EC1CBD3A1E00009D52 /* AppDelegate.m in Sources */,
+				261832011CC90E3900C49BEA /* TriangleView.m in Sources */,
 				2661B7E91CBD3A1E00009D52 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +329,7 @@
 				INFOPLIST_FILE = Pomodoro2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bimi.Pomodoro2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Simple Pomodoro";
 			};
 			name = Debug;
 		};
@@ -278,14 +340,14 @@
 				INFOPLIST_FILE = Pomodoro2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bimi.Pomodoro2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Simple Pomodoro";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2661B7DF1CBD3A1E00009D52 /* Build configuration list for PBXProject "Pomodoro2" */ = {
+		2661B7DF1CBD3A1E00009D52 /* Build configuration list for PBXProject "Simple Pomodoro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2661B7F91CBD3A1E00009D52 /* Debug */,
@@ -294,13 +356,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2661B7FB1CBD3A1E00009D52 /* Build configuration list for PBXNativeTarget "Pomodoro2" */ = {
+		2661B7FB1CBD3A1E00009D52 /* Build configuration list for PBXNativeTarget "Simple Pomodoro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2661B7FC1CBD3A1E00009D52 /* Debug */,
 				2661B7FD1CBD3A1E00009D52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

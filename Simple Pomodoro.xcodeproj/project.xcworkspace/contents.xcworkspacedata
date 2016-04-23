@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Pomodoro2.xcodeproj">
+      location = "self:/Users/nguyenbinh/workspace/Pomodoro2/Simple Pomodoro.xcodeproj">
    </FileRef>
 </Workspace>
